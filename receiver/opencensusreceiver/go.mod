@@ -14,13 +14,13 @@ require (
 	go.opentelemetry.io/collector v0.37.1-0.20211026180946-46c8e2290e45
 	go.opentelemetry.io/collector/model v0.37.1-0.20211026180946-46c8e2290e45
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.25.0
-	go.opentelemetry.io/otel v1.0.1
-	go.opentelemetry.io/otel/trace v1.0.1
+	go.opentelemetry.io/otel v1.2.0
+	go.opentelemetry.io/otel/trace v1.2.0
 	google.golang.org/grpc v1.41.0
 	google.golang.org/protobuf v1.27.1
 )
 
-require go.opentelemetry.io/otel/sdk v1.0.1
+require go.opentelemetry.io/otel/sdk v1.2.0
 
 require (
 	cloud.google.com/go v0.81.0 // indirect
@@ -48,7 +48,6 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20210604141403-392c879c8b08 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
