@@ -383,8 +383,9 @@ github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+W
 github.com/onsi/ginkgo v1.11.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v0.0.0-20170829124025-dcabb60a477c/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
 github.com/onsi/gomega v1.7.0/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
-github.com/open-telemetry/opentelemetry-log-collection v0.22.0 h1:GrzrnzzuXZLkshHwOqHroKRpS99vWWd8U34g+TJyNFY=
 github.com/open-telemetry/opentelemetry-log-collection v0.22.0/go.mod h1:Dvdoz+3RMM6TC8fIZaKAAhhhZVwCf7FyMG05ufhh5Bw=
+github.com/open-telemetry/opentelemetry-log-collection v0.23.0 h1:qGna00Fdu7i4kn6Pz0PcH18ksRPiih1fkpa6Nrw/5qE=
+github.com/open-telemetry/opentelemetry-log-collection v0.23.0/go.mod h1:5tnjgWDjnItFXlbrd7/9w6dMheCP+cjby+d6b8hIE6Y=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pascaldekloe/goe v0.1.0/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml v1.7.0/go.mod h1:vwGMzjaWMwyfHwgIBhI2YUM4fB6nL6lVAvS1LBMMhTE=
