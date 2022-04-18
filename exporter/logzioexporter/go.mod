@@ -7,9 +7,9 @@ require (
 	github.com/jaegertracing/jaeger v1.31.0
 	github.com/logzio/jaeger-logzio v1.0.4
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.45.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/collector v0.45.0
-	go.opentelemetry.io/collector/model v0.45.0
+	go.opentelemetry.io/collector/model v0.49.0
 	go.uber.org/zap v1.21.0
 )
 
@@ -55,6 +55,7 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.opencensus.io v0.23.0 // indirect
+	go.opentelemetry.io/collector/pdata v0.49.0 // indirect
 	go.opentelemetry.io/otel v1.4.0 // indirect
 	go.opentelemetry.io/otel/metric v0.27.0 // indirect
 	go.opentelemetry.io/otel/trace v1.4.0 // indirect
