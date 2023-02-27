@@ -10,7 +10,7 @@ require (
 	github.com/jstemmer/go-junit-report v1.0.0
 	github.com/pavius/impi v0.0.3
 	github.com/tcnksm/ghr v0.14.0
-	go.opentelemetry.io/build-tools/checkdoc v0.0.0-20220502161954-e2bf744925c0
+	go.opentelemetry.io/build-tools/checkdoc v0.6.0
 	go.opentelemetry.io/build-tools/crosslink v0.0.0-20220502161954-e2bf744925c0
 	go.opentelemetry.io/build-tools/issuegenerator v0.0.0-20210920164323-2ceabab23375
 	go.opentelemetry.io/build-tools/multimod v0.0.0-20220502161954-e2bf744925c0
@@ -162,8 +162,8 @@ require (
 	github.com/spf13/viper v1.11.0 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.4.0 // indirect
-	github.com/stretchr/testify v1.7.3 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/sylvia7788/contextcheck v1.0.4 // indirect
 	github.com/tcnksm/go-gitconfig v0.1.2 // indirect
