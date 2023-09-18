@@ -3,10 +3,10 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/extension/stora
 go 1.17
 
 require (
-	github.com/stretchr/testify v1.7.3
+	github.com/stretchr/testify v1.8.1
 	go.etcd.io/bbolt v1.3.6
 	go.opentelemetry.io/collector v0.53.1-0.20220615184617-4cefca87d2c6
-	go.uber.org/zap v1.21.0
+	go.uber.org/zap v1.26.0
 
 )
 
@@ -16,7 +16,6 @@ require (
 )
 
 require (
-	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -43,8 +42,7 @@ require (
 	go.opentelemetry.io/otel v1.7.0 // indirect
 	go.opentelemetry.io/otel/metric v0.30.0 // indirect
 	go.opentelemetry.io/otel/trace v1.7.0 // indirect
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.8.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/crypto v0.0.0-20220507011949-2cf3adece122 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
