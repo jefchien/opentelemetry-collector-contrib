@@ -7,11 +7,11 @@ require (
 	github.com/jaegertracing/jaeger v1.35.2
 	github.com/logzio/jaeger-logzio v1.0.6
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.53.0
-	github.com/stretchr/testify v1.7.3
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.53.1-0.20220615184617-4cefca87d2c6
 	go.opentelemetry.io/collector/pdata v0.53.1-0.20220615184617-4cefca87d2c6
 	go.opentelemetry.io/collector/semconv v0.53.1-0.20220615184617-4cefca87d2c6
-	go.uber.org/zap v1.21.0
+	go.uber.org/zap v1.26.0
 )
 
 require (
@@ -65,7 +65,7 @@ require (
 	go.opentelemetry.io/otel/metric v0.30.0 // indirect
 	go.opentelemetry.io/otel/trace v1.7.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.8.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/net v0.0.0-20220412020605-290c469a71a5 // indirect
 	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6 // indirect
 	golang.org/x/text v0.3.7 // indirect
