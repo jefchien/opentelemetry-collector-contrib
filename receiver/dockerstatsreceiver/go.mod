@@ -6,18 +6,17 @@ require (
 	github.com/docker/docker v20.10.17+incompatible
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/containertest v0.53.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker v0.53.0
-	github.com/stretchr/testify v1.7.3
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.53.1-0.20220615184617-4cefca87d2c6
 	go.opentelemetry.io/collector/pdata v0.53.1-0.20220615184617-4cefca87d2c6
 	go.opentelemetry.io/collector/semconv v0.53.1-0.20220615184617-4cefca87d2c6
-	go.uber.org/multierr v1.8.0
-	go.uber.org/zap v1.21.0
+	go.uber.org/multierr v1.10.0
+	go.uber.org/zap v1.26.0
 )
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
-	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/distribution v2.8.0-beta.1+incompatible // indirect
