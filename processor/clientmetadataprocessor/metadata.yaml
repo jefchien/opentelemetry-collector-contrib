@@ -1,0 +1,10 @@
+type: clientmetadata
+
+status:
+  class: processor
+  stability:
+    alpha: [traces, metrics, logs]
+  distributions: []
+  warnings: []
+  codeowners:
+    active: [jefchien]

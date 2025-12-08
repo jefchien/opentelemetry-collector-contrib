@@ -1,0 +1,45 @@
+clientmetadata/insert:
+  actions:
+    - key: "key1"
+      action: insert
+      value: "static-value"
+    - key: "key2"
+      action: insert
+      from_resource_attribute: "resource.attribute1"
+
+clientmetadata/update:
+  actions:
+    - key: "key1"
+      action: update
+      from_attribute: "attribute1"
+    - key: "key2"
+      action: update
+      value: "updated-value"
+
+clientmetadata/upsert:
+  actions:
+    - key: "key1"
+      action: upsert
+      from_resource_attribute: "service.name"
+    - key: "key2"
+      action: upsert
+      value: "upserted-value"
+
+clientmetadata/delete:
+  actions:
+    - key: "old-key"
+      action: delete
+
+clientmetadata/mixed:
+  actions:
+    - key: "static-key"
+      action: insert
+      value: "static-value"
+    - key: "resource-key"
+      action: update
+      from_resource_attribute: "host.name"
+    - key: "attribute-key"
+      action: upsert
+      from_attribute: "span.id"
+    - key: "remove-key"
+      action: delete
